@@ -1,0 +1,80 @@
+@import '../variables.scss';
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 140px;
+
+  h1{
+    font-size: 64px;
+    color: $black;
+  }
+
+  p{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+
+    width: 600px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
+}
+
+.info-wrapper{
+  display: flex;
+  justify-content: space-between;
+
+  width: 1000px;
+  margin-bottom: 100px;
+
+  .info-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+    width: fit-content;
+  
+    img{
+      height: 60px;
+      width: 60px;
+
+      margin-bottom: 7px;
+    }
+
+    h1{
+      color: $black;
+      font-size: 20px;
+      font-weight: bold;
+
+      width: fit-content;
+      line-height: normal;
+
+      margin-top: 7px;
+      margin-bottom: 10px;
+    }
+
+    .spacer{
+      background: #DEC6A7;
+      width: 150px;
+      height: 8px;
+
+      margin-bottom: 10px;
+    }
+
+    p{
+      font-size: 15px;
+      font-weight: 500;
+      text-align: just;
+      width: fit-content;
+      margin: 0px;
+      margin-top: 15px;
+      width: 250px;
+    }
+  }
+}
+
+
+

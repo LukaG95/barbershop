@@ -1,0 +1,27 @@
+@import '../variables.scss';
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #373737;
+  height: 76px;
+
+  padding: 0px 120px;
+
+  p{
+    color: $white;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  >div{
+    display: flex;
+    align-items: center;
+
+    >img{
+      margin-left: 30px;
+    }
+  }
+}

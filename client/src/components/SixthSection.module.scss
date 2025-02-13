@@ -1,0 +1,123 @@
+@import '../variables.scss';
+
+.main{
+  position: relative;
+  
+}
+
+.info-wrapper{
+  position: absolute;
+  top: 120px;
+  left: 120px;
+
+  h1{
+    color: $white;
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  p{
+    color: $white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 500px;
+  }
+
+  .info-box{
+    display: flex;
+    margin-bottom: 35px;
+
+    > div:first-of-type{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: $white;
+      height: 60px;
+      width: 60px;
+
+      img{
+        height: 30px;
+        width: 30px;
+      }
+    }
+
+    > div:nth-of-type(2){
+      margin-left: 20px;
+    }
+
+    h2{
+      color: $white;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    p{
+      color: $white;
+      font-size: 20px;
+      font-weight: 300;
+      margin: 0px;
+      width: fit-content;
+    }
+  }
+}
+
+.form-wrapper{
+  position: absolute;
+  right: 200px;
+  top: 120px;
+
+  width: 648px;
+
+
+  padding: 30px 50px;
+
+  background: white;
+  box-shadow: 0px 4px 23.7px -5px rgba(0, 0, 0, 0.25);
+
+
+  input{
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid black;
+    height: 60px;
+    font-size: 20px;
+
+    margin-bottom: 25px;
+
+    &::placeholder{
+      color: black;
+  
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+
+}
+
+.action-one{
+  width: 214px;
+  height: 54px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  color: $black;
+  background: #DEC6A7;
+
+  border: none;
+
+  margin-top: 30px;
+  transition: all .5s ease;
+
+  &:hover{
+    cursor: pointer;
+    background: #b6a288;
+  }
+
+  &:active{
+    background: #9e8c75;
+    transition: none;
+  }
+}
